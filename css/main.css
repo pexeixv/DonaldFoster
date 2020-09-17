@@ -386,7 +386,7 @@ section.content .row img {
   padding: 3px;
 }
 
-section.content #row3 img {
+section.content .rowTaller img {
   height: 320px;
 }
 
