@@ -10,9 +10,41 @@ section.content
         display: flex
         flex-direction: row
         height: fit-content
+        width: 100%
         img
             height: 300px
             padding: 3px
     .rowTaller
         img
             height: 320px
+
+
+// RESPONSIVE
+
+@media screen and ( max-width:  1400px )
+    section.content
+        width: 90%
+        .row
+            img
+                height: 250px
+
+@media screen and ( max-width:  1000px )
+    section.content
+        width: 90%
+        .row
+            img
+                height: 150px
+
+@media screen and ( max-width:  600px )
+    section.content
+        width: 90%
+        .row
+            img
+                height: 100px
+
+@media screen and ( max-width:  400px )
+    section.content
+        width: 90%
+        .row
+            img
+                height: 75px
